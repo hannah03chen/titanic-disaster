@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+printf '\n# Project\nsrc/data/*\n!src/data/.gitkeep\n.DS_Store\n' >> .gitignore
