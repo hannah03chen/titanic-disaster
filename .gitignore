@@ -220,4 +220,6 @@ __marimo__/
 .streamlit/secrets.toml
 
 
-printf '\n# Project\nsrc/data/*\n!src/data/.gitkeep\n.DS_Store\n' >> .gitignore
+
+src/data/*.csv
+.DS_Store
