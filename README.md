@@ -128,10 +128,10 @@ The script prints every step it takes to the terminal. The output follows this o
 5. **Model:** train.csv is split 80/20 (712 training rows, 179 validation rows), a logistic regression model is trained, and its coefficients are printed
 6. **Accuracy and predictions:** training accuracy, the number of passengers in `test.csv` predicted to survive, and the accuracy on the held-out validation rows
 
-Expected results (should match, since the random seed is fixed):
+Expected results (the random seed is fixed, so these should match; the last digit can differ slightly depending on library versions):
 
 ```
-Training accuracy: 0.806
+Training accuracy: 0.805
 Predicted 155 survivors out of 418 test passengers
 Held-out validation accuracy: 0.793
 ```
